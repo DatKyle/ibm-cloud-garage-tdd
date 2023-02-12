@@ -7,7 +7,7 @@ describe('the fahrenheit-2-celsius canary spec', () => {
     });
 });
 
-describe.only('a fahrenheitToCelsius function should', () => {
+describe('a fahrenheitToCelsius function should', () => {
     it('return 0 for 32', () => {
         expect(fahrenheitToCelsius(32)).toBe(0);
     });
